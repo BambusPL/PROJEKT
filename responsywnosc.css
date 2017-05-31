@@ -103,6 +103,36 @@
         padding-left: 0;
         padding-bottom: 50px;
     }
+    
+    header{
+         background-image: url(img/tlo.png);
+    background-size: cover;
+        background-position: center;
+    
+    }
+    
+    
+}
+
+@media (min-width:0px) and (max-width: 550px){
+    .kafel1, .kafel2, .kafel3{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .kafelki p{
+        font-size: 24px;
+       
+    }
+    .navbar-brand img{
+        width: 30%;
+        height: 30%;
+    }
+    
+    .navbar{
+        padding-top: 30px;
+    }
 }
 
 

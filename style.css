@@ -114,6 +114,7 @@ header {
     text-align: left;
     position: relative;
     padding-left: 90px;
+    -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 .opis:hover{
@@ -355,4 +356,3 @@ footer p{
     font-size: 12px;
     padding-bottom: 50px;
 }
-
