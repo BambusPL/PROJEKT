@@ -1,0 +1,290 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    background-image: url(img/tlo.png);
+    background-size: 100% 100%;
+    height: 560px;
+    background-repeat: no-repeat;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.header-tekst {
+    padding-top: 230px;
+    padding-bottom: 210px;
+    text-align: justify;
+}
+
+.header-tekst h1 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.header-tekst p {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.ramka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.ramka a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-tekst-2 {
+    padding-left: 40%;
+}
+
+.header-tekst-2 span {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.header-tekst-2 p {
+    font-size: 1.15em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.opis {
+    text-align: left;
+    position: relative;
+    padding-left: 90px;
+}
+
+.opis i {
+    position: absolute;
+    left: 0;
+    font-size: 70px;
+}
+
+
+/*=========SEKCJA KAFELKÓW============*/
+
+.tytul {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 45px 0px;
+}
+
+.tytul h2 {
+    font-size: 21px;
+    color: #828282;
+}
+
+.tytul span {
+    font-weight: 700;
+    color: #939393;
+}
+
+.kafle-sekcja-glowna{
+    background-image: url(img/CUBO_445.png);
+    background-position: 100% 33%;
+    background-repeat: no-repeat;
+    bg
+    background-size: 100% 50%;
+}
+
+.kafelki {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+}
+.kafelki a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+.kafelki a:hover{
+    color: #f76114;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.kafel1 {
+    background-image: url(img/Shape%206%20copy.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 290px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden;
+     -webkit-transition: 0.5s ease-in-out;
+     transition: 0.5s ease-in-out;
+}
+
+.kafel1 p{
+    padding-left: 30px;
+    padding-top: 200px;
+}
+
+.kafel2 {
+    background-image: url(img/Shape%206%20copy%202.png);
+    background-size: 100% 100%;
+    width: 100%;
+    margin-top: 20px;
+    height: 290px;
+    overflow: hidden;
+     -webkit-transition: 0.5s ease-in-out;
+     transition: 0.5s ease-in-out;
+}
+
+.kafel2 p{
+    padding-left: 30px;
+    padding-top: 200px;
+    font-size: 25px;
+}
+
+.kafel3 {
+    background-image: url(img/5.png);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.obrazek-overlay{
+    overflow: hidden;
+    width: 90%;
+    
+}
+
+.kafel3:hover, .kafel2:hover, .kafel1:hover{
+background-size: 120% 120%;
+    color: #f76114;
+}
+
+
+
+.kafel3 p {
+    padding-top: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+}
+
+/* =========Promocje============= */
+.prom{ /*usuwanie paddingu z bootstrapowej kolumny */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nastepny-tytul{
+   padding-top: 100px;
+    padding-bottom: 65px;
+}
+.nastepny-tytul h2{
+    color: #111;
+    font-size: 47px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.nastepny-tytul p{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #5b5b5b;
+    word-wrap: normal;
+}
+
+.nastepny-tytul button{
+    width: 240px;
+    background-color: #fff;
+     color: #f76114;
+    border: none;
+    padding: 16px 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+   margin-top: 40px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.nastepny-tytul button i{
+    padding-left: 20px;
+    font-size: 20px;
+   
+}
+
+.nastepny-tytul button:hover{
+    background-color: #f76114;
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+/* sekcja dwoch kafelkow z opisami */
+.opisy{
+    padding-bottom: 150px;
+}
+.opisy p{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #737373;
+    margin-bottom: 5px;
+}
+
+.opisy .paragraf-kafelek{
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+.opisy h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.opisy a{
+    color: #f76114;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.opisy a:hover{
+    color: #f98336;
+}
+
+.kafelki-tytul{
+    padding-top: 10%;
+    padding-left: 10%;
+}
