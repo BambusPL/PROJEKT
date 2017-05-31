@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1600px){
+    .wrapper{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+@media (min-width:0px) and (max-width: 1400px){
+    .col-md-8{
+       max-width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    .header-tekst-2{
+        padding-left: 5%;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1600px){
+    .kafel2{
+       margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .kafelki{
+        display: flex;
+       justify-content: center;
+        flex-direction: column;
+    }
+   
+ 
+    .kafel1, .kafel2, .kafel3{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .obrazek-overlay{
+        width: 100%;
+    }
+    
+    .kafel3{
+        height: 290px;
+        margin-top: 20px;
+    }
+    .kafel2{
+        margin-top: 20px;
+    }
+    
+    .kafel3 p{
+        padding-top: 200px;
+        padding-left: 30px;
+    }
+    
+    .nastepny-tytul{
+        text-align: center;
+    }
+    
+    .opisy{
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+   
+    .kafelki-tytul{
+        padding-left: 0;
+    }
+    
+    .resp-1{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .item2{
+        order: 1;
+    }
+    .item1{
+        order: 2;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer .row{
+        padding-top: 50px;
+    }
+    
+   
+}
+
+@media only screen and (max-width: 800px){
+    .header-tekst{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .header-tekst p{
+        font-size: 32px;
+    }
+    .header-tekst-2{
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 50px;
+    }
+}
+
+
+    
+   
